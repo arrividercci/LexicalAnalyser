@@ -1,0 +1,16 @@
+"use strict"
+
+console.log("Hello world");
+
+const a = 1.2312;
+
+const func = (a, b) => {
+	let i = 0;
+	while(true){
+		console.log("i = " + i);
+		if (i === 20) break;
+		else {
+		console.log("the loop is not over");
+		}
+	}
+};
