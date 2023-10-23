@@ -543,7 +543,7 @@ public:
                 {
                     string s(1, fch);
 
-                    if (IsSeparator(fch))// ÿךשמ נמחה³כüםטך, עמ ןונוג³נÿ÷למ, שמ חא סכמגמ
+                    if (IsSeparator(fch))
                     {
                         if (fch == '.' && word.back() >= '0' && word.back() <= '9')
                         {
